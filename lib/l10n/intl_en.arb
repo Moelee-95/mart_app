@@ -1,0 +1,395 @@
+{
+  "@@locale": "en",
+  
+  "@@_navigation": "Splash screen related strings",
+  "title": "FreshMart",
+  
+  "@@_navigation": "Navigation related strings", 
+  "home": "Home",
+  "account": "Account",
+  "orders": "Orders",
+  
+  "@@_general": "General app strings",
+  "hello": "Hello",
+  "welcome": "Welcome to our app",
+  "loading": "Loading...",
+  
+  "@@_account_section": "Account management strings",
+  "settings": "Settings",
+  "accountInfo": "Account info",
+  "savedAddresses": "Saved Addresses",
+  "changePhoneNumber": "Change Phone Number",
+  "changePin": "Change PIN",
+  "notifications": "Notifications",
+  "language": "Language",
+  "selectedStore": "Selected Store",
+  "orderHistory": "Order History",
+  "nextStatus": "Next Status",
+  
+  "@@_auth": "Authentication related strings",
+  "logout": "Log out",
+  "logoutConfirmation": "Are you sure you want to logout?",
+  "loggingOut": "Logging out...",
+  
+  "@@_common": "Common UI strings",
+  "cancel": "Cancel",
+  "enabled": "Enabled",
+  "disabled": "Disabled",
+  "selectLanguage": "Select Language",
+  
+  "@@_onboarding": "Onboarding screen strings",
+  "welcomeToFreshMart": "Welcome to FreshMart",
+  "neighborhoodGroceryStore": "Your neighborhood smart mart at your fingertips",
+  "getStarted": "Get Started",
+  "deliveryApp": "Delivery App",
+  "shopWithEase": "Shop with Ease",
+  "browseAddCheckout": "Browse, add to cart, and checkout in just a few taps",
+  "next": "Next",
+  "pickupOrDelivery": "Pickup or Delivery",
+  "chooseWhatWorksBest": "Choose what works best for you - collect from store or get it delivered",
+  "shopNow": "Shop Now",
+  "speed": "Speed",
+  "convenience": "Convenience",
+  "reliability": "Reliability",
+
+  "@@_auth_signin": "Sign in screen strings",
+  "signInToAccount": "Sign In to your account",
+  "signIn": "Sign In", 
+  "dontHaveAccount": "Don't have an account? ",
+  "registerNow": "Register Now",
+  "byContinuingAgree": "By continuing, you agree to our ",
+  "termsOfService": "Terms of Service",
+  "andNewLine": " and\n",
+  "privacyPolicy": "Privacy Policy",
+
+  "@@_auth_register": "Registration screen strings",
+  "phoneNumber": "Phone Number",
+  "continueButton": "Continue",
+  "backToSignIn": "Back to Sign In",
+  "termsAndPrivacy": "By continuing, you agree to our Terms of Service and Privacy Policy",
+
+
+  "@@_auth_otp": "OTP verification screen strings",
+  "otpVerification": "OTP verification",
+  "enterCodeSent": "Enter the code we just\nsent you",
+  "sentVerificationCodeTo": "We sent a verification code to\n",
+  "enterBelowToContinue": ".\n\nEnter it below to continue.",
+  "verify": "Verify",
+  "resendCodeIn": "Resend code in {seconds}s",
+  "@resendCodeIn": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "didntReceiveCodeResend": "Didn't receive the code? Resend",
+  "pleaseEnterCompleteCode": "Please enter complete verification code",
+  "verificationCodeSent": "Verification code sent!",
+
+  "@@_auth_pin": "PIN setup screen strings",
+  "setupPin": "Setup PIN",
+  "confirmPin": "Confirm PIN", 
+  "setupYourPin": "Setup Your PIN",
+  "enterApp4DigitPin": "Enter your app 4 digit PIN",
+  "confirmYourPin": "Confirm Your PIN",
+  "reEnterPinToConfirm": "Re-enter your PIN to confirm",
+  "settingUpYourPin": "Setting up your PIN...",
+  "pinsDoNotMatch": "PINs do not match. Please try again.",
+  "couldNotChangePin": "Could not change pin",
+  "unknownAuthType": "Unknown auth type: {authType}",
+  "@unknownAuthType": {
+    "placeholders": {
+      "authType": {
+        "type": "String"
+      }
+    }
+  },
+  "anErrorOccurred": "An error occurred. Please try again.",
+
+  "@@_auth_register_info": "Registration info screen strings",
+  "completeYourProfile": "Complete Your Profile",
+  "phoneLabel": "Phone: {phone}",
+  "@phoneLabel": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "enterYourFullName": "Enter your full name",
+  "completeRegistration": "Complete Registration",
+  "pleaseEnterYourFullName": "Please enter your full name",
+  "fullNameMustBeAtLeast2Characters": "Full name must be at least 2 characters",
+  "missingCustomerInformation": "Missing customer information",
+  "registrationFailed": "Registration failed: {error}",
+  "@registrationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+
+  "@@_cart": "Cart screen strings",
+  "cart": "Cart",
+  "deliveryApp": "Delivery App",
+  "yourCartIsEmpty": "Your cart is empty",
+  "goToHomeScreen": "Go to Home Screen",
+  "deliveryOptions": "Delivery Options",
+  "specialRequests": "Special requests",
+  "edit": "Edit",
+  "anySpecialRequests": "Any special requests?",
+  "anythingElseWeNeedToKnow": "Anything else we need to know?",
+  "cancel": "Cancel",
+  "save": "Save",
+  "paymentSummary": "Payment summary",
+  "cartTotal": "Cart total",
+  "deliveryFee": "Delivery fee",
+  "serviceFee": "Service fee",
+  "totalAmount": "Total amount",
+  "free": "Free",
+  "readMoreAboutFees": "Read more about fees",
+  "addItems": "Add items",
+  "checkout": "Checkout",
+  "method": "Method: {method}",
+  "@method": {
+    "placeholders": {
+      "method": {
+        "type": "String"
+      }
+    }
+  },
+  "totalAmountCheckout": "Total amount: {amount} IQD",
+  "@totalAmountCheckout": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "proceedWithCheckout": "Proceed with checkout?",
+  "confirmOrder": "Confirm Order",
+  "delivery": "Delivery",
+  "pickup": "Pickup",
+
+  "@@_delivery": "Delivery selection strings",
+  "deliverToLocation": "Deliver to Your Location",
+  "deliveryAddress": "Slemani, Daraza city, b122",
+  "deliveryPrice": "2,000 IQD",
+  "pickupAtStore": "Pickup at store",
+  "storeAddress": "Daraza city 1 Market",
+  "free": "Free",
+
+  "@@_orders": "Orders list screen strings",
+  "myOrders": "My Orders",
+  "all": "All",
+  "active": "Active", 
+  "delivered": "Delivered",
+  "cancelled": "Cancelled",
+  "noActiveOrders": "No active orders",
+  "noDeliveredOrders": "No delivered orders",
+  "noCancelledOrders": "No cancelled orders",
+  "noOrdersYet": "No orders yet",
+  "startShoppingToSeeOrders": "Start shopping to see your orders here",
+  "moreItems": "+{count} more items",
+  "@moreItems": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "totalAmountOrder": "Total: IQD {amount}",
+  "@totalAmountOrder": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "rateOrder": "Rate Order",
+  "rateYourOrder": "Rate Your Order",
+  "writeReviewOptional": "Write a review (optional)",
+  "cancel": "Cancel",
+  "submitRating": "Submit Rating",
+  "thankYouForRating": "Thank you for your rating!",
+
+  "@@_deals": "Deal related strings",
+  "noProductsAvailableForDeal": "No products available for this deal",
+  "noProductsAvailableInCategory": "No products available in this category",
+
+  "@@_order_status": "Order status screen strings",
+  "orderConfirmationStatus": "Order Confirmation & Status",
+  "orderPlaced": "Order Placed!",
+  "orderPlacedMessage": "Your order has been successfully placed. You will receive a notification when it's on its way.",
+  "deliveryInformation": "Delivery Information",
+  "orderSummary": "Order Summary",
+  "itemsCount": "{count} items",
+  "@itemsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "subtotal": "Subtotal",
+  "quantity": "Qty: {qty}",
+  "@quantity": {
+    "placeholders": {
+      "qty": {
+        "type": "int"
+      }
+    }
+  },
+  "orderStatus": "Order Status",
+  "trackOrder": "Track Order",
+  "orderInProgress": "Order in progress",
+  "stepProgress": "Step {current} of {total}",
+  "@stepProgress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "contactSupportButton": "Contact Support",
+  "contactMarket": "Contact Market",
+  "paymentMethod": "Payment Method",
+  "contactSupport": "Contact & Support",
+  "total": "Total",
+
+  "@@_product_detail": "Product detail screen strings",
+  "addToCart": "Add to cart",
+  "imageNotAvailable": "Image not available", 
+  "productWeight": "1 kg • Approx. 8-12 pcs",
+  "frequentlyBoughtTogether": "Frequently bought together",
+
+  "@@_products_screen": "Products screen strings",
+  "noProductsAvailable": "No products available",
+
+  "@@_account_info_screen": "Account info screen strings",
+  "loadingAccountInfo": "Loading account info...",
+  "email": "Email",
+  "firstName": "First name",
+  "lastName": "Last name", 
+  "dateOfBirthOptional": "Date of birth (optional)",
+  "genderOptional": "Gender (optional)",
+  "male": "Male",
+  "female": "Female",
+  "receiveOffersAndDiscounts": "Yes, I want to receive offers and discounts",
+  "subscribeToNewsletter": "Subscribe to newsletter",
+  "saving": "Saving...",
+  "deleting": "Deleting...",
+  "deleteAccount": "Delete account",
+  "accountInfoUpdatedSuccessfully": "Account information updated successfully",
+  "deleteAccountConfirmation": "Are you sure you want to delete your account? This action cannot be undone.",
+  "delete": "Delete",
+
+  "@@_addresses_screen": "Addresses screen strings",
+  "addresses": "Addresses",
+  "adding": "Adding...",
+  "add": "Add",
+  "loadingAddresses": "Loading addresses...",
+  "noAddressesFound": "No addresses found",
+  "addYourFirstAddress": "Add your first address",
+  "mobileNumber": "Mobile Number",
+  "addNewAddress": "Add New Address",
+  "addAddressDialogContent": "This would open the add address form.",
+  "editAddress": "Edit Address",
+  "editAddressFor": "Edit",
+  "deleteAddress": "Delete Address",
+  "deleteAddressConfirmation": "Are you sure you want to delete",
+  "addressDeletedSuccessfully": "Address deleted successfully",
+
+  "@@_change_phone_otp_screen": "Change phone OTP screen strings",
+  "verifyNewPhone": "Verify New Phone",
+  "missingPhoneGoBackRetry": "Missing phone. Go back and retry.",
+  "invalidVerificationCode": "Invalid verification code",
+  "phoneNumberUpdated": "Phone number updated",
+  "failedToUpdatePhone": "Failed to update phone",
+
+  "@@_change_phone_screen": "Change phone screen strings",
+  "enterYourNewPhoneNumber": "Enter your new phone number",
+  "otpSent": "OTP sent",
+  "failedToSendOtp": "Failed to send OTP",
+
+  "@@_edit_address_screen": "Edit address screen strings",
+  "area": "Area",
+  "unknownArea": "Unknown Area",
+  "apartment": "Apartment",
+  "house": "House",
+  "office": "Office",
+  "buildingName": "Building name",
+  "aptNo": "Apt. no.",
+  "floor": "Floor",
+  "street": "Street",
+  "additionalDirectionsOptional": "Additional directions (optional)",
+  "addressLabelOptional": "Address label (optional)",
+  "addressLabelDescription": "Give this address a label so you can easily choose between them (e.g. Parent's home)",
+  "saveAddress": "Save address",
+  "phoneNumberRequired": "Phone number is required",
+  "enterValidPhoneNumber": "Please enter a valid phone number",
+  "areaLengthLimit": "Area must be less than 255 characters",
+  "buildingNameLengthLimit": "Building name must be less than 255 characters",
+  "floorLengthLimit": "Floor must be less than 10 characters",
+  "aptNumberLengthLimit": "Apartment number must be less than 10 characters",
+  "streetLengthLimit": "Street must be less than 255 characters",
+  "directionsLengthLimit": "Additional directions must be less than 500 characters",
+  "addressLabelLengthLimit": "Address label must be less than 100 characters",
+  "phoneNumberLengthLimit": "Phone number must be less than 20 characters",
+  "success": "Success!",
+  "addressSavedSuccessfully": "Address has been saved successfully.",
+  "ok": "OK",
+  "failedToSaveAddress": "Failed to save address",
+
+  "@@_home_screen": "Home screen strings",
+  "todaysDeals": "Today's Deals",
+  "searchProducts": "Search products",
+
+  "@@_search_screen": "Search screen strings",
+  "recentSearches": "Recent searches",
+  "clearRecentSearches": "Clear recent searches",
+  "searchForProducts": "Search for products",
+  "searchResults": "Search Results",
+  "noProductsFound": "No products found",
+  "trySearchingSomethingElse": "Try searching for something else",
+
+  "@@_categories_widget": "Categories widget strings",
+  "categories": "Categories",
+
+  "@@_floating_cart_widget": "Floating cart widget strings", 
+  "readyToCheckout": "Ready to checkout!",
+  "add": "Add",
+  "iqd": "IQD",
+  "moreToPlaceOrder": "more to place order",
+  "startAdding": "Start adding",
+  "toPlaceYourOrder": "to place your order!",
+
+  "@@_phone_input_field": "Phone input field widget strings",
+  "phoneNumberHint": "7701234567",
+
+  "@@_pin_input_widget": "PIN input widget strings",
+  "clearPin": "Clear PIN",
+  "incorrectPin": "Incorrect PIN",
+
+  "@@_todays_deals_widget": "Today's deals widget strings",
+  "noDealsAvailable": "No deals available",
+  "loadingMore": "Loading more...",
+
+  "@@_store_selector": "Store selector widget strings",
+  "selectStore": "Select Store",
+  "noStoresAvailable": "No stores available",
+
+  "houseName": "House Name/Number",
+  "houseNumber": "House Number", 
+  "houseFloor": "Floor (Optional)",
+  "officeBuildingName": "Office Building",
+  "officeNumber": "Office/Suite No.",
+  "officeFloor": "Floor",
+  "shopByBrand": "Shop By Brand"
+
+}

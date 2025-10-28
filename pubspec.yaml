@@ -1,0 +1,56 @@
+name: grocery_stores
+description: "Delivery App delivery mobile application"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5+1
+  # Map Related - Latest versions
+  geolocator: ^13.0.1
+  geocoding: ^3.0.0
+  google_maps_flutter: ^2.12.3
+  http: ^1.5.0
+  flutter_secure_storage: ^9.2.4
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+  intl_utils: ^2.8.11
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/192.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/icons/192.png"
+  remove_alpha_ios: true 
+
+flutter:
+    uses-material-design: true
+    assets:
+      - assets/icons/
+    fonts:
+      - family: NRT
+        fonts:
+          - asset: assets/fonts/nrt-bd.ttf
+            weight: 700
+      - family: NRTRegular
+        fonts:
+          - asset: assets/fonts/nrt-bd.ttf
+flutter_intl:
+  enabled: true
+  arb_dir: lib/l10n
+  output_dir: lib/generated
+  use_deferred_loading: false

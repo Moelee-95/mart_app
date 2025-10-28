@@ -1,0 +1,395 @@
+{
+  "@@locale": "ku",
+  
+  "@@_navigation": "Splash screen related strings",
+  "title": "FreshMart",
+  
+  "@@_navigation": "Navigation related strings",
+  "home": "سەرەکی",
+  "account": "ئەکاونت", 
+  "orders": "داواکاریەکان",
+  
+  "@@_general": "General app strings",
+  "hello": "سڵاو",
+  "welcome": "بەخێربێیت",
+  "loading": "بارکردن...",
+  
+  "@@_account_section": "Account management strings",
+  "settings": "ڕێکخستنەکان",
+  "accountInfo": "زانیاری ئەکاونت",
+  "savedAddresses": "ناونیشانە پاشەکەوتکراوەکان",
+  "changePhoneNumber": "گۆڕینی ژمارەی مۆبایل",
+  "changePin": "گۆڕینی پین",
+  "notifications": "ئاگاداریەکان",
+  "language": "زمان",
+  "selectedStore": "فرۆشگای هەڵبژێردراو",
+  "orderHistory": "مێژووی داواکاری",
+  "nextStatus": "حالتي دواتر",
+  
+  "@@_auth": "Authentication related strings",
+  "logout": "چوونەدەرەوە",
+  "logoutConfirmation": "دڵنیایت لە چوونەدەرەوە؟",
+  "loggingOut": "چوونەدەرەوە...",
+  
+  "@@_common": "Common UI strings",
+  "cancel": "هەڵوەشاندنەوە",
+  "enabled": "چالاک",
+  "disabled": "ناچالاک",
+  "selectLanguage": "هەڵبژاردنی زمان",
+  
+  "@@_onboarding": "Onboarding screen strings",
+  "welcomeToFreshMart": "بەخێربێیت بۆ FreshMart",
+  "neighborhoodGroceryStore": "فرۆشگای خۆراکی گەڕەکەکەت لە نوکی پەنجەکانت",
+  "getStarted": "دەستپێکردن",
+  "deliveryApp": "یەکەم ئەپی گەیاندن",
+  "shopWithEase": "بە ئاسانی بکڕە",
+  "browseAddCheckout": "بگەڕێ، زیادبکە بۆ سەبەتە، و بە چەند کلیکێک تەواو بکە",
+  "next": "دواتر",
+  "pickupOrDelivery": "وەرگرتن یان گەیاندن",
+  "chooseWhatWorksBest": "ئەوە هەڵبژێرە کە باشترین بۆت - لە فرۆشگاوە وەربگرە یان بیگەیەنە",
+  "shopNow": "ئێستا بکڕە",
+  "speed": "خێرایی",
+  "convenience": "ئاسانکاری",
+  "reliability": "متمانەپێکراوی",
+
+  "@@_auth_signin": "Sign in screen strings",
+  "signInToAccount": "چوونەژوورەوە بۆ ئەکاونتەکەت",
+  "signIn": "چوونەژوورەوە",
+  "dontHaveAccount": "ئەکاونتت نییە؟ ",
+  "registerNow": "ئێستا تۆمارکردن",
+  "byContinuingAgree": "بە بەردەوامبوون، ڕازی دەبیت بە ",
+  "termsOfService": "مەرجەکانی خزمەتگوزاری",
+  "andNewLine": " و\n",
+  "privacyPolicy": "سیاسەتی نهێنیەتی",
+
+  "@@_auth_register": "Registration screen strings",
+  "phoneNumber": "ژمارەی مۆبایل",
+  "continueButton": "بەردەوامبوون",
+  "backToSignIn": "گەڕانەوە بۆ چوونەژوورەوە",
+  "termsAndPrivacy": "بە بەردەوامبوون، ڕازی دەبیت بە مەرجەکانی خزمەتگوزاری و سیاسەتی نهێنیەتی",
+
+  "@@_auth_otp": "OTP verification screen strings",
+  "otpVerification": "پشتڕاستکردنەوەی OTP",
+  "enterCodeSent": "کۆدەکە داخڵ بکە کە تازە\nناردمان بۆت",
+  "sentVerificationCodeTo": "کۆدێکی پشتڕاستکردنەوەمان نارد بۆ\n",
+  "enterBelowToContinue": ".\n\nلە خوارەوە داخڵی بکە بۆ بەردەوامبوون.",
+  "verify": "پشتڕاستکردنەوە",
+  "resendCodeIn": "دووبارە ناردنی کۆد لە {seconds} چرکەدا",
+  "@resendCodeIn": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "didntReceiveCodeResend": "کۆدەکەت پێنەگەیشت؟ دووبارە بینێرە",
+  "pleaseEnterCompleteCode": "تکایە کۆدی پشتڕاستکردنەوەی تەواو داخڵ بکە",
+  "verificationCodeSent": "کۆدی پشتڕاستکردنەوە نێردرا!",
+
+  "@@_auth_pin": "PIN setup screen strings",
+  "setupPin": "دانانی پین",
+  "confirmPin": "پشتڕاستکردنەوەی پین",
+  "setupYourPin": "پینەکەت دابنێ",
+  "enterApp4DigitPin": "پینی ٤ ژمارەی ئەپەکەت داخڵ بکە",
+  "confirmYourPin": "پینەکەت پشتڕاست بکەرەوە",
+  "reEnterPinToConfirm": "پینەکەت دووبارە داخڵ بکە بۆ پشتڕاستکردنەوە",
+  "settingUpYourPin": "دانانی پینەکەت...",
+  "pinsDoNotMatch": "پینەکان یەک ناگرنەوە. تکایە دووبارە هەوڵ بدەرەوە.",
+  "couldNotChangePin": "نەتوانرا پینەکە بگۆڕدرێت",
+  "unknownAuthType": "جۆری ناسینەوەی نەناسراو: {authType}",
+  "@unknownAuthType": {
+    "placeholders": {
+      "authType": {
+        "type": "String"
+      }
+    }
+  },
+  "anErrorOccurred": "هەڵەیەک ڕوویدا. تکایە دووبارە هەوڵ بدەرەوە.",
+
+  "@@_auth_register_info": "Registration info screen strings",
+  "completeYourProfile": "پڕۆفایلەکەت تەواو بکە",
+  "phoneLabel": "مۆبایل: {phone}",
+  "@phoneLabel": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "enterYourFullName": "ناوی تەواوت داخڵ بکە",
+  "completeRegistration": "تەواوکردنی تۆمارکردن",
+  "pleaseEnterYourFullName": "تکایە ناوی تەواوت داخڵ بکە",
+  "fullNameMustBeAtLeast2Characters": "ناوی تەواو دەبێت لانیکەم ٢ پیت بێت",
+  "missingCustomerInformation": "زانیاری کڕیار ون بووە",
+  "registrationFailed": "تۆمارکردن سەرکەوتوو نەبوو: {error}",
+  "@registrationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+
+  "@@_cart": "Cart screen strings",
+  "cart": "سەبەتە",
+  "deliveryApp": "یەکەم ئەپی گەیاندن",
+  "yourCartIsEmpty": "سەبەتەکەت بەتاڵە",
+  "goToHomeScreen": "چوون بۆ پەڕەی سەرەکی",
+  "deliveryOptions": "هەڵبژاردەکانی گەیاندن",
+  "specialRequests": "داواکاری تایبەت",
+  "edit": "دەستکاری",
+  "anySpecialRequests": "هیچ داواکاری تایبەتت هەیە؟",
+  "anythingElseWeNeedToKnow": "شتێکی تر هەیە کە پێویستە بیزانین؟",
+  "cancel": "هەڵوەشاندنەوە",
+  "save": "پاشەکەوتکردن",
+  "paymentSummary": "کورتەی پارەدان",
+  "cartTotal": "کۆی سەبەتە",
+  "deliveryFee": "کرێی گەیاندن",
+  "serviceFee": "کرێی خزمەتگوزاری",
+  "totalAmount": "کۆی گشتی",
+  "free": "بەخۆڕایی",
+  "readMoreAboutFees": "زیاتر بخوێنەرەوە سەبارەت بە کرێکان",
+  "addItems": "زیادکردنی کاڵا",
+  "checkout": "تەواوکردنی کڕین",
+  "method": "شێواز: {method}",
+  "@method": {
+    "placeholders": {
+      "method": {
+        "type": "String"
+      }
+    }
+  },
+  "totalAmountCheckout": "کۆی گشتی: {amount} دینار",
+  "@totalAmountCheckout": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "proceedWithCheckout": "بەردەوامبوون لەگەڵ تەواوکردنی کڕین؟",
+  "confirmOrder": "پشتڕاستکردنەوەی داواکاری",
+  "delivery": "گەیاندن",
+  "pickup": "وەرگرتن",
+
+  "@@_delivery": "Delivery selection strings",
+  "deliverToLocation": "گەیاندن بۆ شوێنەکەت",
+  "deliveryAddress": "سلێمانی، شاری دەرەزە، b122",
+  "deliveryPrice": "٢٬٠٠٠ دینار",
+  "pickupAtStore": "وەرگرتن لە فرۆشگا",
+  "storeAddress": "شاری دەرەزە ١ مارکێت",
+  "free": "بەخۆڕایی",
+
+  "@@_orders": "Orders list screen strings",
+  "myOrders": "داواکاریەکانم",
+  "all": "هەموو",
+  "active": "چالاک",
+  "delivered": "گەیاندراو",
+  "cancelled": "هەڵوەشاندراوەتەوە",
+  "noActiveOrders": "هیچ داواکاریەکی چالاک نییە",
+  "noDeliveredOrders": "هیچ داواکاریەکی گەیاندراو نییە", 
+  "noCancelledOrders": "هیچ داواکاریەکی هەڵوەشاندراوە نییە",
+  "noOrdersYet": "هێشتا هیچ داواکاریەک نییە",
+  "startShoppingToSeeOrders": "دەست بە کڕین بکە بۆ بینینی داواکاریەکانت لێرە",
+  "moreItems": "+{count} کاڵای زیاتر",
+  "@moreItems": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "totalAmountOrder": "کۆی گشتی: {amount} دینار",
+  "@totalAmountOrder": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "rateOrder": "نرخاندنی داواکاری",
+  "rateYourOrder": "داواکاریەکەت نرخاندن بکە",
+  "writeReviewOptional": "پێداچوونەوەیەک بنووسە (ئیختیاری)",
+  "cancel": "هەڵوەشاندنەوە",
+  "submitRating": "ناردنی نرخاندن",
+  "thankYouForRating": "سوپاس بۆ نرخاندنەکەت!",
+
+  "@@_deals": "Deal related strings", 
+  "noProductsAvailableForDeal": "هیچ بەرهەمێک بۆ ئەم پێشکەشکارییە بەردەست نییە",
+  "noProductsAvailableInCategory": "هیچ بەرهەمێک لەم پۆلە دا بەردەست نییە",
+
+  "@@_order_status": "Order status screen strings",
+  "orderConfirmationStatus": "پشتڕاستکردنەوە و دۆخی داواکاری",
+  "orderPlaced": "داواکاری دانرا!",
+  "orderPlacedMessage": "داواکاریەکەت بە سەرکەوتوویی دانرا. ئاگاداریەکت پێدەگات کاتێک لە ڕێگادایە.",
+  "deliveryInformation": "زانیاری گەیاندن",
+  "orderSummary": "کورتەی داواکاری",
+  "itemsCount": "{count} کاڵا",
+  "@itemsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "subtotal": "ژێرکۆ",
+  "quantity": "بڕ: {qty}",
+  "@quantity": {
+    "placeholders": {
+      "qty": {
+        "type": "int"
+      }
+    }
+  },
+  "orderStatus": "دۆخی داواکاری",
+  "trackOrder": "شوێنپێکەوتنی داواکاری",
+  "orderInProgress": "داواکاری لە پرۆسەدایە",
+  "stepProgress": "هەنگاوی {current} لە {total}",
+  "@stepProgress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "contactSupportButton": "پەیوەندی بە پشتگیری",
+  "contactMarket": "پەیوەندی بە فرۆشگا",
+  "paymentMethod": "شێوازی پارەدان",
+  "contactSupport": "پەیوەندی و پشتگیری", 
+  "total": "کۆی گشتی",
+
+  "@@_product_detail": "Product detail screen strings",
+  "addToCart": "زیادکردن بۆ سەبەتە",
+  "imageNotAvailable": "وێنە بەردەست نییە",
+  "productWeight": "١ کیلۆ • نزیکەی ٨-١٢ دانە", 
+  "frequentlyBoughtTogether": "زۆرجار پێکەوە کڕدراون",
+
+  "@@_products_screen": "Products screen strings", 
+  "noProductsAvailable": "هیچ بەرهەمێک بەردەست نییە",
+
+  "@@_account_info_screen": "Account info screen strings",
+  "loadingAccountInfo": "بارکردنی زانیاری ئەکاونت...",
+  "email": "ئیمەیڵ",
+  "firstName": "ناوی یەکەم",
+  "lastName": "ناوی کۆتایی",
+  "dateOfBirthOptional": "ڕێکەوتی لەدایکبوون (ئیختیاری)",
+  "genderOptional": "ڕەگەز (ئیختیاری)",
+  "male": "نێر",
+  "female": "مێ",
+  "receiveOffersAndDiscounts": "بەڵێ، دەمەوێت پێشکەشکاری و داشکاندن وەربگرم",
+  "subscribeToNewsletter": "ئەندامەتی لە نامەی هەواڵ",
+  "saving": "پاشەکەوتکردن...",
+  "deleting": "سڕینەوە...",
+  "deleteAccount": "سڕینەوەی ئەکاونت",
+  "accountInfoUpdatedSuccessfully": "زانیاری ئەکاونت بە سەرکەوتوویی نوێکرایەوە",
+  "deleteAccountConfirmation": "دڵنیایت لە سڕینەوەی ئەکاونتەکەت؟ ئەم کردارە ناگەڕێتەوە.",
+  "delete": "سڕینەوە",
+
+  "@@_addresses_screen": "Addresses screen strings",
+  "addresses": "ناونیشانەکان",
+  "adding": "زیادکردن...",
+  "add": "زیادکردن",
+  "loadingAddresses": "بارکردنی ناونیشانەکان...",
+  "noAddressesFound": "هیچ ناونیشانێک نەدۆزرایەوە",
+  "addYourFirstAddress": "یەکەم ناونیشانت زیادبکە",
+  "mobileNumber": "ژمارەی مۆبایل",
+  "addNewAddress": "زیادکردنی ناونیشانی نوێ",
+  "addAddressDialogContent": "ئەمە فۆڕمی زیادکردنی ناونیشان دەکاتەوە.",
+  "editAddress": "دەستکاریکردنی ناونیشان",
+  "editAddressFor": "دەستکاری",
+  "deleteAddress": "سڕینەوەی ناونیشان",
+  "deleteAddressConfirmation": "دڵنیایت لە سڕینەوەی",
+  "addressDeletedSuccessfully": "ناونیشان بە سەرکەوتوویی سڕایەوە",
+
+  "@@_change_phone_otp_screen": "Change phone OTP screen strings",
+  "verifyNewPhone": "پشتڕاستکردنەوەی ژمارەی نوێ",
+  "missingPhoneGoBackRetry": "ژمارەی مۆبایل ون بووە. بگەڕێوە و دووبارە هەوڵ بدەرەوە.",
+  "invalidVerificationCode": "کۆدی پشتڕاستکردنەوە هەڵەیە",
+  "phoneNumberUpdated": "ژمارەی مۆبایل نوێکرایەوە",
+  "failedToUpdatePhone": "نوێکردنەوەی ژمارەی مۆبایل سەرکەوتوو نەبوو",
+
+  "@@_change_phone_screen": "Change phone screen strings",
+  "enterYourNewPhoneNumber": "ژمارەی مۆبایلی نوێت داخڵ بکە",
+  "otpSent": "کۆدی پشتڕاستکردنەوە نێردرا",
+  "failedToSendOtp": "ناردنی کۆدی پشتڕاستکردنەوە سەرکەوتوو نەبوو",
+
+  "@@_edit_address_screen": "Edit address screen strings",
+  "area": "ناوچە",
+  "unknownArea": "ناوچەی نەناسراو",
+  "apartment": "شوقە",
+  "house": "ماڵ",
+  "office": "ئۆفیس",
+  "buildingName": "ناوی بینا",
+  "aptNo": "ژمارەی شوقە",
+  "floor": "نهۆم",
+  "street": "شەقام",
+  "additionalDirectionsOptional": "ڕێنمایی زیاتر (ئیختیاری)",
+  "addressLabelOptional": "ناونیشانی ناونیشان (ئیختیاری)",
+  "addressLabelDescription": "ناونیشانێک بدە بەم ناونیشانە بۆ ئەوەی بە ئاسانی لە نێوانیاندا هەڵبژاردن بکەیت (بۆ نموونە: ماڵی دایک و باوک)",
+  "saveAddress": "پاشەکەوتکردنی ناونیشان",
+  "phoneNumberRequired": "ژمارەی مۆبایل پێویستە",
+  "enterValidPhoneNumber": "تکایە ژمارەی مۆبایلێکی دروست داخڵ بکە",
+  "areaLengthLimit": "ناوچە دەبێت کەمتر لە ٢٥٥ پیت بێت",
+  "buildingNameLengthLimit": "ناوی بینا دەبێت کەمتر لە ٢٥٥ پیت بێت",
+  "floorLengthLimit": "نهۆم دەبێت کەمتر لە ١٠ پیت بێت",
+  "aptNumberLengthLimit": "ژمارەی شوقە دەبێت کەمتر لە ١٠ پیت بێت",
+  "streetLengthLimit": "شەقام دەبێت کەمتر لە ٢٥٥ پیت بێت",
+  "directionsLengthLimit": "ڕێنمایی زیاتر دەبێت کەمتر لە ٥٠٠ پیت بێت",
+  "addressLabelLengthLimit": "ناونیشانی ناونیشان دەبێت کەمتر لە ١٠٠ پیت بێت",
+  "phoneNumberLengthLimit": "ژمارەی مۆبایل دەبێت کەمتر لە ٢٠ پیت بێت",
+  "success": "سەرکەوتوو!",
+  "addressSavedSuccessfully": "ناونیشان بە سەرکەوتوویی پاشەکەوت کرا.",
+  "ok": "باشە",
+  "failedToSaveAddress": "پاشەکەوتکردنی ناونیشان سەرکەوتوو نەبوو",
+
+  "@@_home_screen": "Home screen strings",
+  "todaysDeals": "پێشکەشکاریەکانی ئەمڕۆ",
+  "searchProducts": "گەڕان بۆ بەرهەمەکان",
+
+  "@@_search_screen": "Search screen strings",
+  "recentSearches": "گەڕانەکانی نوێ",
+  "clearRecentSearches": "پاککردنەوەی گەڕانەکانی نوێ",
+  "searchForProducts": "گەڕان بۆ بەرهەمەکان",
+  "searchResults": "ئەنجامەکانی گەڕان",
+  "noProductsFound": "هیچ بەرهەمێک نەدۆزرایەوە",
+  "trySearchingSomethingElse": "هەوڵ بدە شتێکی تر بگەڕێیت",
+
+  "@@_categories_widget": "Categories widget strings",
+  "categories": "پۆلەکان",
+
+  "@@_floating_cart_widget": "Floating cart widget strings", 
+  "readyToCheckout": "ئامادەیی بۆ تەواوکردنی کڕین!",
+  "add": "زیادکردن",
+  "iqd": "دینار",
+  "moreToPlaceOrder": "زیاتر بۆ دانانی داواکاری",
+  "startAdding": "دەست بکە بە زیادکردنی",
+  "toPlaceYourOrder": "بۆ دانانی داواکاریەکەت!",
+
+  "@@_phone_input_field": "Phone input field widget strings",
+  "phoneNumberHint": "7701234567",
+
+  "@@_pin_input_widget": "PIN input widget strings",
+  "clearPin": "پاککردنەوەی پین",
+  "incorrectPin": "پینی هەڵە",
+
+  "@@_todays_deals_widget": "Today's deals widget strings",
+  "noDealsAvailable": "هیچ پێشکەشکارییەک بەردەست نییە",
+  "loadingMore": "بارکردنی زیاتر...",
+
+  "@@_store_selector": "Store selector widget strings",
+  "selectStore": "هەڵبژاردنی فرۆشگا",
+  "noStoresAvailable": "هیچ فرۆشگای بەردەست نییە",
+
+  "houseName": "House Name/Number",
+  "houseNumber": "House Number", 
+  "houseFloor": "Floor (Optional)",
+  "officeBuildingName": "Office Building",
+  "officeNumber": "Office/Suite No.",
+  "officeFloor": "Floor",
+
+  "shopByBrand": "دوکان لەلایەن براند"
+
+  }
